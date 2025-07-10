@@ -11,15 +11,5 @@ Al hacer clic en una tarjeta de superhéroe, su color cambia, indicando que ha s
 No se puedan agregar nombres de superhéroes vacíos.
 
 El layout principal de la página está estilizado con Flexbox.
-
-Cómo usar:
-Abre index.html en tu navegador web.
-
-Escribe el nombre de un superhéroe de Avengers en el campo de texto.
-
-Haz clic en el botón "Agregar" o presiona Enter.
-
-Haz clic en cualquier tarjeta de superhéroe para cambiar su color.
-
 Captura de Pantalla:
 ![Captura de la aplicación Superhéroes de Avengers](https://user-images.githubusercontent.com/tu_usuario/tu_repo/alguna_ruta_larga/nombre_de_la_captura.png)
