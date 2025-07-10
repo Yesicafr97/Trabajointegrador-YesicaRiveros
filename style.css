@@ -1,0 +1,71 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;  
+}
+
+body {
+    background-color: #aa7ba6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input, button{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    background-color: #00bcd4;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.tarjeta {
+background-color: #4a148c;
+color: white;
+font-weight: bold;
+border-radius: 8px;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+padding: 15px 20px;
+width: 180;
+text-align: center;
+transition: transform 0.2s ease, backgroud-color 0.2s ease;
+cursor: pointer;
+}
+
+.tarjeta:hover{
+    transform: translate(-3px);
+}
+.tarjeta.seleccionada{
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #388e3c;
+}
